@@ -20,3 +20,49 @@ def main():
                 answer = input("Please input your answer:")
                 if answer == "c":
                     print("Congratulation!")
+                else:
+                    exit()
+            else:
+                exit()
+        else:
+            exit()
+    elif number_choose == 2:
+        print(number_1)
+        answer_1 = input("Please input your answer:")
+        if answer_1 == "a":
+            print(number_2)
+            answer = input("Please input your answer:")
+            if answer == "b":
+                print(number_3)
+                answer = input("Please input your answer:")
+                if answer == "c":
+                    print("Congratulation!")
+                else:
+                    exit()
+            else:
+                exit()
+        else:
+            exit()
+    elif number_choose == 3:
+        print(number_1)
+        answer_1 = input("Please input your answer:")
+        if answer_1 == "a":
+            print(number_2)
+            answer = input("Please input your answer:")
+            if answer == "b":
+                print(number_3)
+                answer = input("Please input your answer:")
+                if answer == "c":
+                    print("Congratulation!")
+                else:
+                    exit()
+            else:
+                exit()
+        else:
+            exit()
+    f_1.close()
+    f_2.close()
+    f_3.close()
+
+if __name__ == "__main__":
+    main()
